@@ -1,0 +1,67 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>О себе</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="table-responsive">
+    <table class="table align-middle">
+        <thead>
+        <tr>
+            <td>
+                <div class="container">Где я живу?</div>
+            </td>
+            <td>
+                <div class="container">Чем я увлекаюсь?</div>
+            </td>
+            <td>
+                <div class="container">Какой у меня опыт в разработке?</div>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="align-middle">
+            <td>
+                <div class="container">Я живу в Балашихе (Московская область).</div>
+            </td>
+            <td>
+                <div class="container">Помимо программирования, я учу два иностранных языка,
+                    люблю играть в футбол и баскетбол, а также в компьтерные и настольные игры.
+                </div>
+            </td>
+            <td>
+                <div class="container">
+                    <p>Мне 12 лет. Я с 8 лет занимаюсь программированием, и вот чему я научился:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>основы Git</li>
+                        <li>основы MySQL</li>
+                        <li>основы Django</li>
+                        <li>основы HTML, CSS и JavaScript</li>
+                        <li>основы клиент-серверных приложений</li>
+                        <li>как работать в команде.</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <img src="{% static "img/my_photo2.jpg" %}" class="rounded mx-auto d-block" alt="Мое фото">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
